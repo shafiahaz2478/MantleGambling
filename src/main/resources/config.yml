@@ -1,0 +1,63 @@
+jackpot:
+  ticket-price: 10000
+  draw-time: 60
+  tax-percent: 0.10
+  warnings:
+    - 30
+    - 15
+    - 6
+    - 3
+messages:
+  coinflip-invite : '&a&l(!) &aYou have invited to play Coinflip with {name} do /coinflip to join'
+  coinflip-winMsg : '&a&l(!) &aYou have won and have been given &a${prize}'
+  coinflip-loseMsg : '&a&l(!) &aYou have lost and have lost &a${prize}'
+  coinflip-stats:
+    - ''
+    - '&e&lCoinFlip'
+    - ' &b&lCoinFLip won: &e{win}'
+    - ' &b&lCoinFLip lost: &e{lost}'
+    - ' &b&lCoinFLip Total: &e{total}'
+    - ' &b&lCoinFLip Win ratio: &e{ratio}'
+  buy-ticket: '&a&l(!) &aYou successfully purchased {amount} tickets for ${price}'
+  cannot-afford: '&c&l(!) &cYou cannot afford the total price of ${price} for {amount} tickets!'
+  jackpot-info:
+    - ''
+    - '&e&lServer Jackpot'
+    - ' &b&lJackpot Value: &e${total-value} '
+    - ' &b&lTickets Sold: &e{total-tickets}'
+    - ' &b&lYour Tickets: &a{player-tickets} &7({player-percent}%)'
+    - ''
+    - '&b&l(!) &bNext Winner in &n{timer}&r'
+    - ''
+  jackpot-results:
+    - ''
+    - '            &b&l(!) --- JACKPOT RESULTS --- &b&l(!)'
+    - '   &7Congratulation to &a{winner}&7 for winning the lottery!'
+    - '    &7A prize of &a${prize}&7 has been added to their balance.'
+    - ''
+  jackpot-warning:
+    - ''
+    - '&b&l(!) &bServer Jackpot (${total-value}) drawing in &l{timer}&b!'
+    - '&7Use &e/jackpot buy &7to purchase a ticket!'
+    - ''
+confirm-gui:
+  title: 'Confirm {amount} Tickets'
+  confirm-button:
+    material: 'LIME_STAINED_GLASS_PANE'
+    name: '&a&lConfirm Purchase'
+    lore:
+      - '&7Click to &aconfirm &7purchase of'
+      - '&a{amount} &7ticket(s) for &a${price}'
+  cancel-button:
+    material: 'RED_STAINED_GLASS_PANE'
+    name: '&c&lCancel Purchase'
+    lore:
+      - '&7Click to &ccancel &7purchase of'
+      - '&c{amount} &7ticket(s) for &c${price}'
+  center-button:
+    material: 'BOOK'
+    name: '&e&l(!) Confirm Your Purchase (!)'
+    lore:
+      - '&7Select whether you would like to'
+      - '&7confirm or cancel your ticket purchase.'
+  cancel-message: '&c&l(!) &cYou have canceled your ticket purch'

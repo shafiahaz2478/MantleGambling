@@ -1,0 +1,13 @@
+name: MantleGambling
+version: '${project.version}'
+main: me.shafishaz.mantlegambling.MantleGambling
+description: Gampling plugin
+commands:
+  CoinFlip:
+    description: CoinFlipCommand
+    aliases:
+      - cf
+  JackPot:
+    description: use /jackpot help
+    aliases:
+      - jp
